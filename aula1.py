@@ -58,7 +58,7 @@ def buscar_filmes():
             status = '✅ cadastrada'
         else:
             status = '❌ não cadastrada'
-            print(f'nome:{filme['nome']}  gênero:{filme['genero']}   plataforma:{filme['plataforma']}')
+            print(f'nome:{filme['nome']}  gênero:{filme['genero']}   plataforma:{filme['plataforma']} status:{filme['atualizacao']}')
             print("")
 
 
