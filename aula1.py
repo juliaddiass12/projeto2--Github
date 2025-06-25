@@ -40,7 +40,7 @@ def mostrar_cadastrados():
     numero=1
     for filme in Filmes:
         status=''
-        print(f'[{numero}] nome:{filme['nome']}  gênero:{filme['genero']}   plataforma:{filme['plataforma']}')
+        print(f'[{numero}] nome:{filme['nome']}  gênero:{filme['genero']}   plataforma:{filme['plataforma']}  status:{filme['atualizacao']}')
         print('')
         numero+=1
 
