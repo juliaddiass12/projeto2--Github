@@ -69,7 +69,7 @@ def mostrar_cadastrados():
     numero=1
     for filme in Filmes:
         status=''
-        print(f'[{numero}] nome:{filme['nome']}  gênero:{filme['genero']}   plataforma:{filme['plataforma']} status{filme['atualizacao']}')
+        print(f'[{numero}] nome:{filme['nome']} | gênero:{filme['genero']}  |  plataforma:{filme['plataforma']} | status:{filme['atualizacao']}')
         print('')
         numero+=1
 
@@ -84,7 +84,7 @@ def buscar_filmes():
         print(cor_texto('Nenhum filme/série cadastrado❌❌❌ \n','vermelho_escuro'))
         return
     for filme in movies_encontrados:
-            print(f'nome:{filme['nome']}  gênero:{filme['genero']}   plataforma:{filme['plataforma']} status:{filme['atualizacao']}')
+            print(f'nome:{filme['nome']} | gênero:{filme['genero']}  |  plataforma:{filme['plataforma']} | status:{filme['atualizacao']}')
             print("")
 
 def exibir_menu():
