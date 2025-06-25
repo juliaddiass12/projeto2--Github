@@ -84,13 +84,8 @@ def buscar_filmes():
         print(cor_texto('Nenhum filme/série cadastrado❌❌❌ \n','vermelho_escuro'))
         return
     for filme in movies_encontrados:
-        if filme['atualizacao'] == True:
-            status = 'cadastrado😁'
-        else:
-            status = 'não cadastrado😭'
             print(f'nome:{filme['nome']}  gênero:{filme['genero']}   plataforma:{filme['plataforma']} status:{filme['atualizacao']}')
             print("")
-
 
 def exibir_menu():
     while True:
